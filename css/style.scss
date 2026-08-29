@@ -220,12 +220,10 @@ li {
 
         @include m.sp {
             padding: 0 20px 70px 20px;
-
         }
 
         .sec10-item {
             margin-bottom: 12px;
-
 
             .accordion-item {
                 width: 100%;
@@ -259,7 +257,6 @@ li {
                         @include m.tab {
                             height: clamp(11px, 3.467vw, 24px);
                             width: clamp(11px, 3.467vw, 24px);
-
                             top: 30%;
                         }
                     }
@@ -272,7 +269,6 @@ li {
                     background-color: #ffffff;
                     border-radius: 0 0 10px 10px;
                     cursor: pointer;
-
 
                     .sec10-item-open {
                         width: 100%;
@@ -309,15 +305,9 @@ li {
 
                         iframe {
                             width: 100%;
-                            max-width: 440px;
                             aspect-ratio: 605 / 420;
                             height: auto;
                             border: none;
-
-                            @include m.tab {
-                                max-width: 658px;
-                                max-height: 353px;
-                            }
                         }
                     }
                 }
@@ -328,13 +318,10 @@ li {
 
 
 footer {
-    // padding-bottom: 100px;
-
     .container {
         background-color: #FF9696;
 
         .fixedbtn {
-            // background-color: #ffffff;
             position: fixed;
             z-index: 100;
             bottom: 5px;

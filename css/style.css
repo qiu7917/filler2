@@ -260,16 +260,9 @@ li {
 }
 .sec10 .sec10-clinic .sec10-item .accordion-item .accordion-content .sec10-item-open iframe {
   width: 100%;
-  max-width: 440px;
   aspect-ratio: 605/420;
   height: auto;
   border: none;
-}
-@media screen and (max-width: 810px) {
-  .sec10 .sec10-clinic .sec10-item .accordion-item .accordion-content .sec10-item-open iframe {
-    max-width: 658px;
-    max-height: 353px;
-  }
 }
 
 footer .container {
