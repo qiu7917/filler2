@@ -58,6 +58,11 @@ li {
 .slick .slider .prev-arrow {
   left: -20px;
 }
+@media screen and (max-width: 250px) {
+  .slick .slider .prev-arrow {
+    left: -15px;
+  }
+}
 .slick .slider .prev-arrow::before {
   position: absolute;
   top: 50%;
@@ -71,6 +76,11 @@ li {
 }
 .slick .slider .next-arrow {
   right: -20px;
+}
+@media screen and (max-width: 250px) {
+  .slick .slider .next-arrow {
+    right: -15px;
+  }
 }
 .slick .slider .next-arrow::before {
   position: absolute;
@@ -170,7 +180,7 @@ li {
 }
 .sec09 .sec09-cta {
   position: absolute;
-  top: 74%;
+  top: 74.5%;
   left: 50%;
   transform: translateX(-50%);
   width: 94%;

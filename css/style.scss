@@ -67,6 +67,11 @@ li {
         .prev-arrow {
             left: -20px;
 
+            @media screen and (max-width: 250px) {
+                left: -15px;
+            }
+
+
             &::before {
                 position: absolute;
                 top: 50%;
@@ -82,6 +87,10 @@ li {
 
         .next-arrow {
             right: -20px;
+
+            @media screen and (max-width: 250px) {
+                right: -15px;
+            }
 
             &::before {
                 position: absolute;
@@ -206,7 +215,7 @@ li {
 
     .sec09-cta {
         position: absolute;
-        top: 74%;
+        top: 74.5%;
         left: 50%;
         transform: translateX(-50%);
         width: 94%;
